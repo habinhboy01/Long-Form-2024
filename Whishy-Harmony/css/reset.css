@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "GaramondPremr-LtDisp";
+  src: url("../fonts/GaramondPremrPro-LtDisp.otf");
+}
+
+@font-face {
+  font-family: "GaramondPremrPro-SmbdDisp";
+  src: url("../fonts/GaramondPremrPro-SmbdDisp.otf");
+}
+
+@font-face {
+  font-family: "Ginger";
+  src: url("../fonts/SVN-Ginger.otf");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../fonts/Times New Roman.ttf");
+}
+
+body {
+	width: 100%;
+	background-image: url('../images/00. BG.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.mr-top {
+	margin-top: 50px;
+}
+
+.mr {
+	margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.mr-2 {
+	margin: 20px 0;
+}
+
+.container-text {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}

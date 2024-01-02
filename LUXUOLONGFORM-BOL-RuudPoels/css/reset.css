@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/Epilogue/static/Epilogue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Epilogue-Bold";
+  src: url("../fonts/Epilogue/static/Epilogue-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("../fonts/Noto/NotoSerif-Regular.ttf");
+}
+
+body {
+  background-color: #e9eae6;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+
+
