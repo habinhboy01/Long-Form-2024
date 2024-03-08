@@ -1,0 +1,87 @@
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("../fonts/NotoSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../fonts/Helvetica-Bold.ttf");
+}
+
+body {
+  background-color: #221249;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+p {
+  font-family: "NotoSerif";
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica-Bold";
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------*/
+
+.container-text {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-top {
+  margin-top: 60px;
+}
+
+.mr-top-2 {
+  margin-top: 40px;
+}
+
+.mr-top-3 {
+  margin-top: 25px;
+}
+
+.mr-bottom {
+  margin-bottom: 100px;
+}
