@@ -1,0 +1,22 @@
+.img {
+	width: 100%;
+	height: auto;
+}
+
+.text {
+    font-family: "Gilroy-Medium";
+    font-size: 22px;
+    text-align: center;
+}
+
+.text-2 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+.text-caption {
+    font-family: "Gilroy-Italic";
+    color: #7c7c7c;
+    font-style: italic;
+    font-size: 18px;
+}
